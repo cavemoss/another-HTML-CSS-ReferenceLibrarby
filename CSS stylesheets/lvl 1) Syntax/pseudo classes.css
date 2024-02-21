@@ -1,0 +1,45 @@
+a:link{
+    color: blue;
+}
+a:hover{
+    color: red;
+    font-size: 1.1em;
+}
+a:active{
+    color: red;
+    font-size: 1em;
+}
+a:visited{
+    color: gray;
+}
+
+li:hover{
+    background-color: lightpink;
+    cursor: pointer;
+}
+li:not(:hover){
+    background-color: aliceblue;
+}
+li:nth-child(3){                                                                           /*
+li:nth-child(odd){     (every odd element)
+li:nth-child(even){    (every even element)
+li:nth-child(2n){      (every second element)
+li:nth-child(2n+2){    (every second element with offset of one)
+li:nth-child(n+1){     (every element aside from the first one)                      */          
+    background-color: lightblue;
+}
+
+
+#greeting{
+    display: inline-block;
+    padding: 20px;
+    border: 2px dashed grey;
+}
+#greeting + div{
+    background-color: aliceblue;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover + div{
+    display: inline-block;
+}

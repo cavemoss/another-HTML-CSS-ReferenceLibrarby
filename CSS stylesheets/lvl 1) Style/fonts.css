@@ -1,0 +1,26 @@
+@font-face{
+    font-family: RobotoLight;
+    src: url(../../resources/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../../resources/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+#h1_one{
+    font-family: Verdana, Arial;
+}
+#p_one{
+    font-family: 'Lucida Console', 'Courier New';
+    font-size: 1em; /* 1em is normal size */
+    font-weight: bold;
+    font-style: italic;
+}
+
+#h1_two{
+    font-family: Roboto, Arial;
+}
+#p_two{
+    font-family: 'Open Sans', 'Courier New';
+}

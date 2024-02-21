@@ -1,0 +1,41 @@
+div{
+    border-radius: 5px;
+    margin: 4px;
+    padding: 4px;
+}
+
+#display_none{
+    display: none;
+    /* element is effectively erased */
+    background-color: lightpink;
+    width: 100px;
+    height: 100px;
+}
+#visibility_hidden{
+    visibility: hidden;
+    /* element is present but hidden */
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+#block{
+    display: block;
+    /* element takes up the entire line */
+    background-color: lightpink;
+    width: 100px;
+    height: 100px;
+}
+#inline_block{
+    display: inline-block;
+    /* element doesn't take up the entire line */
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+#inline{
+    display: inline;
+    /* element is within a line of text */
+    background-color: lightpink;
+    /* cannot scale width and height */
+}

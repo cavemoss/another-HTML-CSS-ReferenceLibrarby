@@ -1,0 +1,19 @@
+#container{
+    border: 2px dashed grey;
+}
+
+#container p{ /* All Descendants */
+    background-color: lightpink;
+}
+
+#container > p{ /* Only Children */
+    background-color: lightblue;
+}
+
+#container ~ p{ /* All Siblings */
+    background-color: lightgoldenrodyellow;
+}
+
+#container + p{ /* Closest Sibling */
+    background-color: lightgray;
+}

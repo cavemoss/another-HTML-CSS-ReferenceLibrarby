@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    /* padding and border will now be included in width and height */
+}
+
+.container{
+    border: 2px solid grey;
+
+    /* set height using viewport height */
+    height: 100vh;
+}
+
+.box{
+    border: 2px dashed grey;
+    padding: 25px;
+    float: left;
+
+    /* set width and height to default */
+    height: auto;
+    width: auto;
+
+    /* set width and height using pixels */
+    height: 300px;
+    width: 300px;
+
+    /* set width and height using percent */
+    height: 50%;
+    width: 50%;
+
+    /* set maximum width and height */
+    max-width: 100%;
+    min-width: 0%;
+    max-height: 100%;
+    min-height: 0%;
+}

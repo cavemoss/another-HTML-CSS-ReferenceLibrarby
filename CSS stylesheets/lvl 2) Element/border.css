@@ -1,0 +1,15 @@
+h1{
+    border-width: 3px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 12px;
+}
+h1{ /* shorthand syntax */
+    border: 3px solid blueviolet;
+}
+p{  /* specify side */
+    border-top: 3px solid;
+    border-right: 6px solid;
+    border-bottom: 12px solid;
+    border-left: 24px solid;
+}

@@ -1,0 +1,33 @@
+#box{
+    width: 150px;
+    height: 150px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightpink;
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+    /* translate using px or percentage */
+    transform: translateY(50px, 50px);
+    transform: translateX(50px, 50px);
+    transform: translate(100%, 100);
+
+    /* rotate using deg */
+    transform: rotateX(60deg);
+    transform: rotateY(60deg);
+    transform: rotateZ(60deg);
+
+    /* scale using coefficient */
+    transform: scaleX(0.5);
+    transform: scaleY(1.5);
+    transform: scale(2, 2);
+
+    /* skew using deg */
+    transform: skew(60deg);
+
+    /* combine multiple transformations */
+    transform: translateX(100%) rotateZ(90deg) scale(0.5);
+}

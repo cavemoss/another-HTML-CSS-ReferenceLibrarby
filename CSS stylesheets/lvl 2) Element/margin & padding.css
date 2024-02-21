@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+div{
+    border: 3px solid;
+    font-size: 3em;
+    width: 250px;
+    height: 250px;
+}
+.odd{
+    background-color: lightblue;
+}
+.even{
+    background-color: lightpink;
+}
+
+#box1{
+
+    /* Margin & Padding */
+    margin: 30px;                                                         /* 
+    margin: 30px 30px;  (specify vertical and horizontal margin)        */
+    padding: 10px;                                                      /*
+    padding: 10px 10px;  (specify vertical and horizontal padding)    */
+}
+#box2{
+
+    /* Specific Padding */
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 100px;
+
+    /* Specific Margin */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 100px;
+}
+#box3{
+
+    /* Auto Margin */
+    margin-left: auto;
+}

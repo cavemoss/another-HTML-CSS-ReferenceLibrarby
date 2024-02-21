@@ -1,0 +1,51 @@
+.lightblue{
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 4px; 
+    width: 100px;
+    height: 100px;
+}
+.lightpink{
+    background-color: lightpink; 
+    border-radius: 5px;
+    padding: 4px; 
+    width: 100px;
+    height: 100px;
+}
+
+#box1{
+    position: relative;
+    /* offset element relative to it's expected position */
+    top: 300px;
+    bottom: auto;
+    left: 300px;
+    right: auto;
+}
+#box2{
+    position: fixed;
+    /* offset element relative to the view port borders */
+    top: 0px;
+    bottom: auto;
+    left: auto;
+    right: 0px;
+}
+#box3{
+    position: absolute;
+    /* offset element relative to it's parent element's position */
+    top: 30px;
+    bottom: auto;
+    left: 30px;
+    right: auto;
+}
+#box4{
+    position: sticky;
+    /* offset element relative to the view port borders when scrolled past */
+    top: 0px;
+    bottom: auto;
+    left: 600px;
+    right: auto;
+}
+#box5{
+    position: static;
+    /* element cannot be offset */
+}

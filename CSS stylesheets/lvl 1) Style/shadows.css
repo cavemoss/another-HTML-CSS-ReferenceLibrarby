@@ -1,0 +1,11 @@
+h1{
+    /* exclusively for text */
+    text-shadow: 1px/*horizontal offset*/ 3px/*vertical offset*/ 5px/*blur*/ lightslategray; 
+}
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+    /* for other elements */
+    box-shadow: 1px/*horizontal offset*/ 3px/*vertical offset*/ 5px/*blur*/ lightslategray;
+}

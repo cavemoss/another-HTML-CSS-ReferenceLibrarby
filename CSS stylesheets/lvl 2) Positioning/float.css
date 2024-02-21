@@ -1,0 +1,32 @@
+div{
+    border: 2px dashed grey;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flow-root;
+}
+
+#img1{
+    float: left;
+    margin-right: 15px;
+}
+#img2{
+    float: right;
+    margin-left: 15px;
+}
+
+.box{
+    border: none;
+    margin: 0px;
+    border-radius: 5px;
+}
+#box1{
+    background-color: lightpink;
+    float: left;
+    margin-right: 10px;
+    height: 60px;
+    width: 80px;
+}
+#box2{
+    background-color: lightblue;
+    height: 60px;
+}

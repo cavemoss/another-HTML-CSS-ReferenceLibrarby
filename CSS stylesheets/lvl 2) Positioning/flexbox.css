@@ -1,0 +1,101 @@
+div{
+    border-radius: 6px;
+    padding: 4px;
+}
+.lb{
+    background-color: lightblue;
+}
+.lp{
+    background-color: lightpink;
+}
+
+
+#flexbox_container_1{margin-top: 30px;
+    
+    display: flex;
+    flex-direction: row;                                  /*
+    flex-direction: column; 
+    flex-direction: row-reverse; 
+    flex-direction: column-reverse;                   */
+}
+#box1{width: auto}
+#box2{width: auto}
+
+
+#flexbox_container_2{margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+}
+#box3{width: 100px}
+#box4{flex: 1}
+
+
+#flexbox_container_3{margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+}
+#box5{width: 100px}
+#box6{flex: 1}
+#box7{flex: 2}
+
+
+#flexbox_container_4{margin-top: 30px; height: 70px; border: 2px solid grey;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;                                /*
+    justify-content: start;  
+    justify-content: center;                          */
+}
+#box8{width: 100px}
+#box9{width: 100px}
+#box10{width: 100px}
+
+
+#flexbox_container_5{margin-top: 30px; height: 70px; border: 2px solid grey;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;                      /*
+    justify-content: space-around;  
+    justify-content: space-evenly;                    */
+}
+#box11{width: 100px}
+#box12{width: 100px}
+#box13{width: 100px}
+
+
+#flexbox_container_6{margin-top: 30px; height: 70px; border: 2px solid grey;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;                                  /*
+    align-items: start;     
+    align-items: end;                                  */
+}
+#box14{width: 100px}
+#box15{width: 100px}
+#box16{width: 100px}
+
+
+#flexbox_container_7{margin-top: 30px; height: 160px; border: 2px solid grey; overflow: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;                                          /*
+    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse;                               */
+
+    align-content: start;                                 /*
+    align-content: center;     
+    align-content: end;                                */
+
+    column-gap: 1em;
+    row-gap: 1em;
+}
+#boxes{width: 150px; height: 60px}

@@ -1,0 +1,32 @@
+button{
+    background-color: grey;
+    color: white;
+    border: none;
+    width: 250px;
+    padding: 10px 16px;
+}
+.slider button{
+    background-color: lightgrey;
+    color: black;
+    display: block;
+}
+.slider{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+}
+
+.dropdown{
+    display: inline-block;
+}
+.dropdown:hover .slider{
+    display: block;
+}
+.dropdown:hover .content{
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+}
+
+@keyframes slideIn {
+    from{transform: translateY(-100%);}
+}

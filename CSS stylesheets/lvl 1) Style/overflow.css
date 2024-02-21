@@ -1,0 +1,23 @@
+body{
+    margin: 40px;
+}
+div{
+    margin-bottom: 60px;
+    border: 2px solid;
+    height: 75px;
+    width: 300px;
+    font-size: large;
+}
+#hidden{
+    overflow: hidden;
+}
+#clip{
+    overflow: clip;
+    overflow-clip-margin: 24px;
+}
+#scroll{
+    overflow: scroll;
+}
+#auto{
+    overflow: auto;
+}
